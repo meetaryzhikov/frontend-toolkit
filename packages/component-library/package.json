@@ -1,0 +1,26 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "Aleksandr Ryzhikov",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@storybook/react-vite": "^10.0.6",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "storybook": "^10.0.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2"
+  }
+}
